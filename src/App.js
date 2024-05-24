@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 function App() {
   const [volume, setVolume] = useState(50);
-  //This is the new commit
+  //This is the new comit
   const increaseVol = () => {
     if (volume < 100) {
       setTimeout(() => {
